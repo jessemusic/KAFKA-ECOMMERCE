@@ -1,10 +1,7 @@
 package br.com.mattec.loja;
 
 
-import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
-
-import java.util.Properties;
 
 public class FraudDetectorService {
     public static void main(String[] args) {
