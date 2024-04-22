@@ -1,6 +1,3 @@
-package br.com.mattec.loja;
-
-
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
 import java.util.HashMap;

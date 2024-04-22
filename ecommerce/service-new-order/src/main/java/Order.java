@@ -1,5 +1,3 @@
-package br.com.mattec.loja;
-
 import java.math.BigDecimal;
 
 public class Order {
