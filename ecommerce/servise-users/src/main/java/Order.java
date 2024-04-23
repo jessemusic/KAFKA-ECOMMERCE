@@ -2,19 +2,15 @@ import java.math.BigDecimal;
 
 public class Order {
 
-    private final String userdId,orderId;
+    private final String orderId;
     private final BigDecimal amount;
     private final String email;
 
-    public Order(String userdId, String orderId, BigDecimal amount, String email) {
-        this.userdId = userdId;
+    public Order(String orderId, BigDecimal amount, String email) {
+
         this.orderId = orderId;
         this.amount = amount;
         this.email = email;
-    }
-
-    public String getUserdId() {
-        return userdId;
     }
 
     public String getEmail() {

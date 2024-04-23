@@ -2,28 +2,28 @@ import java.math.BigDecimal;
 
 public class Order {
 
-    private final String userdId,orderId;
+    private final String orderId, email;
     private final BigDecimal amount;
 
-    public Order(String userdId, String orderId, BigDecimal amount) {
-        this.userdId = userdId;
+    public Order(String orderId, BigDecimal amount, String email) {
         this.orderId = orderId;
         this.amount = amount;
+        this.email = email;
     }
 
     public BigDecimal getAmount() {
         return amount;
     }
 
-    public String getUserdId() {
-        return userdId;
+    public String getEmail() {
+        return email;
     }
 
     @Override
     public String toString() {
         return "Order{" +
-                "userdId='" + userdId + '\'' +
-                ", orderId='" + orderId + '\'' +
+                "orderId='" + orderId + '\'' +
+                ", email='" + email + '\'' +
                 ", amount=" + amount +
                 '}';
     }
